@@ -64,7 +64,7 @@ tmr_resnet = tmr_resnet.cuda()
 
 ```python
 input = torch.randn(1, 3, 32, 32)
-out1, out2, out3 = tmr_model(input)
+out1, out2, out3 = tmr_resnet(input)
 ```
 
 6. Combine the outputs using voting or any other fusion technique:

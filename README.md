@@ -33,7 +33,7 @@ import torchvision.models as models
 2. Load the ResNet20 model:
 
 ```python
-model = models.resnet20(pretrained=False)
+model = models.resnet20(pretrained=True)
 ```
 
 3. Define the TMR wrapper class:

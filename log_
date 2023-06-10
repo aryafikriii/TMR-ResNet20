@@ -1,0 +1,12 @@
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+Command 'pip3' not found, but can be installed with:
+sudo apt install python3-pip
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+Traceback (most recent call last):
+  File "/mnt/d/Documents/Kuliah/S1/GARUDA ACE/Coding/pytorch_resnet_cifar10-master/trainer.py", line 6, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
